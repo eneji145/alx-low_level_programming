@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main prints the string in the main function
- * the output of the program is to print with proper grammar, but the outcome is a piece of art, 
+ * the output of the program is to print with proper grammar
  */
 int main(void)
 {
