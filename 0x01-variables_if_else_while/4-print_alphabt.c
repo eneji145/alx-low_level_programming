@@ -13,7 +13,7 @@ for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
-if (c != 'e' && c != 'q')
+for (c != 'e' && c != 'q')
 {
 putchar('\n');
 }
