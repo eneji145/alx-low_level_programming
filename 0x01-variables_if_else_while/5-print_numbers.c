@@ -8,14 +8,11 @@
  */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
+int i;
+for (i=0; i < 10; i++)
 {
-putchar(c);
+	printf("%i", i);
 }
-if (c != 'e' && c != 'q')
-{
-putchar('\n');
-}
+printf("\n");
 return (0);
 }
