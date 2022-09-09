@@ -10,9 +10,7 @@ for (n = 48; n <= 56; n++)
 	{
 		for (m = 49; m <= 57; m++)
 		{
-
 			if (m > n)
-
 			{
 				putchar(n);
 				putchar(m);
@@ -25,4 +23,5 @@ for (n = 48; n <= 56; n++)
 		}
 	}
 	putchar('\n');
-	return (0);
+	return 0;
+}
